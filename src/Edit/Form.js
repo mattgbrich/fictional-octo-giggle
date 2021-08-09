@@ -10,7 +10,7 @@ function Form () {
   return (
     <div>
       <h2>This is the form</h2>
-      <TextField label="First Name" value={firstName} onChange={handleChange(formFieldsMap.firstName)} />
+      <TextField label="First Name" value={firstName} onChange={handleChange(formFieldsMap.firstName)} style={{marginRight: 16}}/>
       <TextField label="Last Name" value={lastName} onChange={handleChange(formFieldsMap.lastName)} />
     </div>
   )
