@@ -4,7 +4,7 @@ import Actions from './Actions';
 
 function Tables () {
   return (
-    <div style={{backgroundColor: 'peachpuff'}}>
+    <div>
       This is the table component
       <hr /> 
       <Actions />
